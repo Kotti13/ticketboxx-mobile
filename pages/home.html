@@ -3,54 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Ticketboxx</title>
     <link rel="stylesheet" href="../assets/css/home.css">
-    
 </head>
 <body>
-    <div class="header">
-        <img src="../assets/images/user-icon.png" alt="" height="35">
+    <header class="header">
         <h1>Ticketboxx</h1>
-        <img src="../assets/images/bell.png" alt="" height="35">
-    </div>
-    <!-- /* Top trending movie list */ -->
+        <div class="header-icons">
+            <a href="profile.html"><span class="user-icon">👤</span></a>
+            <span class="icon">🔔</span>
+        </div>
+    </header>
 
-   <div class="movie-card">
-    <img src="../assets/images/doomsday.jpg" alt="Doomsday movie poster" class="movie-image">
-    <div class="movie-book">
-    <p class="movie-feature">Featured Movie</p>
-    <a href="#" class="movie-link">Book Now</a>
-</div>
-</div>
+    <main>
+        <!-- Featured Movie Section -->
+        <section class="featured-movie">
+            <img src="../assets/images/doomsday.jpg" alt="Featured Movie">
+            <div class="featured-text">
+                <h2>Featured Movie</h2>
+                <button>Book Now</button>
+            </div>
+        </section>
 
-    
-     <h2>Upcoming Movies</h2>
-     <div class="scroll-container">
-        <a href="link-to-your-page.html" class="card-link">
-          <div class="image-card">
-            <img src="../assets/images/amaran.jpg" alt="Amaran movie pic" class="card-image">
-            <h4 class="card-title">Amaran</h4>
-            <p class="card-genre">Action/Adventure</p>
-          </div>
-        </a>
-        <a href="link-to-your-page.html" class="card-link">
-          <div class="image-card">
-            <img src="../assets/images/amaran.jpg" alt="Amaran movie pic" class="card-image">
-            <h4 class="card-title">Amaran</h4>
-            <p class="card-genre">Action/Adventure</p>
-          </div>
-        </a>
-        <a href="link-to-your-page.html" class="card-link">
-          <div class="image-card">
-            <img src="../assets/images/amaran.jpg" alt="Amaran movie pic" class="card-image">
-            <h4 class="card-title">Amaran</h4>
-            <p class="card-genre">Action/Adventure</p>
-          </div>
-        </a>
-        <!-- Add more duplicate cards as needed -->
-      </div>
-      
-      
+        <!-- Upcoming Movies Section -->
+        <section class="upcoming-movies">
+            <h3>Upcoming Movies</h3>
+            <div class="movie-grid">
+                <div class="movie-card">
+                    <img src="dune.jpg" alt="Dune">
+                    <p>Dune<br><span>Sci-Fi Adventure</span></p>
+                </div>
+                <div class="movie-card">
+                    <img src="eternals.jpg" alt="Eternals">
+                    <p>Eternals<br><span>Marvel Superheroes</span></p>
+                </div>
+                <div class="movie-card">
+                    <img src="no-time-to-die.jpg" alt="No Time to Die">
+                    <p>No Time to Die<br><span>James Bond</span></p>
+                </div>
+            </div>
+        </section>
 
+        <!-- Now Showing Section -->
+        <section class="now-showing">
+            <h3>Now Showing</h3>
+            <div class="movie-grid">
+                <div class="movie-card">
+                    <img src="shang-chi.jpg" alt="Shang-Chi">
+                    <p>Shang-Chi</p>
+                </div>
+                <div class="movie-card">
+                    <img src="free-guy.jpg" alt="Free Guy">
+                    <p>Free Guy</p>
+                </div>
+                <div class="movie-card">
+                    <img src="black-widow.jpg" alt="Black Widow">
+                    <p>Black Widow</p>
+                </div>
+                <div class="movie-card">
+                    <img src="jungle-cruise.jpg" alt="Jungle Cruise">
+                    <p>Jungle Cruise</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Promotions and Discounts Section -->
+        <section class="promotions">
+            <h3>Promotions and Discounts</h3>
+            <div class="promo-grid">
+                <div class="promo-card">
+                    <img src="promo-50-off.jpg" alt="50% Off">
+                    <p>50% Off<br><span>Limited Time Offer</span></p>
+                </div>
+                <div class="promo-card">
+                    <img src="buy-1-get-1.jpg" alt="Buy 1 Get 1">
+                    <p>Buy 1 Get 1<br><span>Special Offer</span></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Nearby Cinemas Section -->
+        <section class="nearby-cinemas">
+            <h3>Nearby Cinemas</h3>
+            <div class="cinema-list">
+                <div class="cinema-card">
+                    <img src="cinema-one.jpg" alt="Cinema One">
+                    <p>Cinema One<br><span>1.2 KM</span></p>
+                </div>
+                <div class="cinema-card">
+                    <img src="cinema-two.jpg" alt="Cinema Two">
+                    <p>Cinema Two<br><span>2.5 KM</span></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Bottom Navigation -->
+    <footer class="bottom-nav">
+        <span class="nav-item">🏠</span>
+        <span class="nav-item">🎬</span>
+        <span class="nav-item">🎟️</span>
+        <span class="nav-item">🔍</span>
+        <span class="nav-item">⚙️</span>
+    </footer>
 </body>
 </html>

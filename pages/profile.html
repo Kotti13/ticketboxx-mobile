@@ -3,10 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile</title>
+    <title>User Profile</title>
+    <link rel="stylesheet" href="../assets/css/profile.css">
 </head>
 <body>
-    
-    
+    <header class="profile-header">
+        <button onclick="window.history.back()">←</button>
+        <h2>Profile</h2>
+    </header>
+
+    <main id="profile-content">
+        <h1 id="username">Username</h1>
+        <p id="user-tag">@username</p>
+
+        <section class="edit-profile">
+            <h3>Edit Profile</h3>
+            <div>
+                <p id="orders">Your Orders</p>
+                <p id="help-center">Help Centre</p>
+                <p id="account-settings">Account & Settings</p>
+            </div>
+        </section>
+
+        <section class="rate-us">
+            <h3>Rate Us</h3>
+            <p>Rate Us</p>
+        </section>
+
+        <section class="version">
+            <h3>Version</h3>
+            <p id="version">Version 1.0</p>
+        </section>
+    </main>
+
+    <footer class="bottom-nav">
+        <span class="nav-item">🏠</span>
+        <span class="nav-item">🎬</span>
+        <span class="nav-item">🎟️</span>
+        <span class="nav-item">🔍</span>
+        <span class="nav-item">⚙️</span>
+    </footer>
+
+    <script src="../assets/js/profile.js"></script>
 </body>
 </html>

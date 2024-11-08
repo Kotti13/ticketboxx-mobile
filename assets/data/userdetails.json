@@ -1,0 +1,35 @@
+{
+    "header": {
+        "title": "Profile",
+        "backButton": "←"
+    },
+    "user": {
+        "username": "Kottai samy",
+        "userTag": "@Kottai samy"
+    },
+    "sections": {
+        "editProfile": {
+            "title": "Edit Profile",
+            "items": [
+                { "label": "Your Orders", "id": "orders" },
+                { "label": "Help Centre", "id": "help-center" },
+                { "label": "Account & Settings", "id": "account-settings" }
+            ]
+        },
+        "rateUs": {
+            "title": "Rate Us",
+            "item": "Rate Us"
+        },
+        "version": {
+            "title": "Version",
+            "item": "Version 1.0"
+        }
+    },
+    "footerLinks": {
+        "home": "🏠",
+        "movies": "🎬",
+        "tickets": "🎟️",
+        "search": "🔍",
+        "settings": "⚙️"
+    }
+}
